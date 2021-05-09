@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Redressed&family=Roboto&display=swap');
+
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  color: #555;
+  background-color: #eee;
+}
+
+h1 {
+  font-family: 'Redressed', cursive;
+  font-size: 72px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+}
+
+.card {
+  cursor: pointer;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  background-color: #fff;
+  border: 30px solid #555;
+  border-radius: 15px;
+  margin: 15px;
+  width: 25vw;
+  height: 200px;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  transition: all 0.3s ease-in;
+  text-align: center;
+}
+
+.card:hover {
+  transform: scale(1.1);
+}
+
+i {
+  text-align: center;
+}
+
+.fas {
+  color: #555;
+}

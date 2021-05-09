@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Raleway&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Lobster', cursive;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.roll-btn {
+  background-color: black;
+  color: #fff;
+  width: 48px;
+  height: 48px;
+  border-radius: 7px;
+  border: 0px;
+  outline: none;
+  transition: all 0.3s;
+}
+
+.roll-btn:hover {
+  transform: rotate(10deg) scale(0.9);
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.75);
+  -moz-box-shadow:    0px 0px 5px 0px rgba(50, 50, 50, 0.75);
+  box-shadow:         0px 0px 5px 0px rgba(50, 50, 50, 0.75);
+}
+
+.game-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  height: 100vh;
+}
+
+.dice-face{
+  margin-top: 25px;
+  margin-left: 5px;
+  margin-right: 5px;
+  font-size: 52px;
+  
+}

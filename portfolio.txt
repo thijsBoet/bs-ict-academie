@@ -1,0 +1,12 @@
+https://boet-movie-app.netlify.app/
+https://react-cocktail-db-project.netlify.app/
+https://boet-draw-app.netlify.app/
+https://boet-weather-app.herokuapp.com/
+https://typescript-react-quiz-app.herokuapp.com/
+https://boet-password-generator.netlify.app/
+https://jsdev-react-todo-list.netlify.app/
+https://boet-exchange-rate.netlify.app/
+https://boet-hangman-game.netlify.app/
+https://boet-meal-finder.netlify.app/
+https://boet-music-player.netlify.app/
+https://boet-speak-number-guess.netlify.app/

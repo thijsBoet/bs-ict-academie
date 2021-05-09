@@ -1,0 +1,19 @@
+{
+  "name": "mail",
+  "version": "1.0.0",
+  "description": "node email app",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "keywords": [
+    "email"
+  ],
+  "author": "matthijs boet",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "nodemailer": "^6.5.0"
+  }
+}
