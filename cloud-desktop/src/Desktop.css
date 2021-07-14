@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+body {
+    box-sizing: border-box;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+
+.desktop {
+    display: flex;
+    flex-flow: column wrap;
+    width: 100vw;
+    height: 95vh;
+    background-color: #0079D8;
+    
+}
+
+.taskbar {
+    display: flex;
+    width: 100vw;
+    height: 5vh;
+    background-color: #004782;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.taskbar-item {
+    margin-right: 15px;
+}
